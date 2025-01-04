@@ -1,0 +1,40 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.pagination .page,
+.pagination .next,
+.pagination .previous {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 3px;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  color: rgba(0, 0, 0, 0.87);
+}
+.active {
+  color: #1976d2;
+  border: 1px solid rgba(25, 118, 210, 0.5);
+  background-color: rgba(25, 118, 210, 0.12);
+}
+.page-link {
+  width: 100%;
+}
+.pagination .breakLabel {
+  margin: 0 5px;
+}
+.disabled {
+  background: rgba(0, 0, 0, 0.23);
+  pointer-events: none;
+}
+.breack {
+  margin: 0 12px;
+  gap: 5px;
+}

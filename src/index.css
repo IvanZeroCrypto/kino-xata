@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url("https://fonts.googleapis.com/css2?family=Playwrite+NL+Guides&display=swap"); */
+
+body {
+  /* font-family: "Playwrite NL Guides", serif; */
+
+  font-size: 16px;
+}
